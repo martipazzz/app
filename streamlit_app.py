@@ -3,8 +3,8 @@ import streamlit as st
 def obtener_recomendacion(materia, horas, metodo):
     recomendaciones = {
         # Matemática
-        ("Matemática", "Menos de 1 hora", "Leyendo u Observando"): "Ejemplos resueltos: Observa ejercicios ya resueltos y sigue el paso a paso para entender el procedimiento.",
-        ("Matemática", "Menos de 1 hora", "Escribiendo o Hablando"): "Resolver ejercicios básicos: Realiza ejercicios sencillos sobre el tema, enfocándote en comprender cada paso.",
+        ("Matemática", "Menos de 1 hora", "Leyendo u Observando"): "Según tus respuestas, te recomendamos:\nEjemplos resueltos: Se observan ejercicios ya resueltos y se sigue el paso a paso para entender el procedimiento. Esta técnica ayuda a visualizar la aplicación de fórmulas y métodos matemáticos.",
+        ("Matemática", "Menos de 1 hora", "Escribiendo o Hablando"): "Según tus respuestas, te recomendamos:\nResolver ejercicios básicos: Realizar ejercicios sencillos sobre el tema, enfocándose en comprender cada paso. Escribir cada operación ayuda a reforzar el aprendizaje.",
         ("Matemática", "Menos de 1 hora", "Escuchando"): "Videos explicativos cortos: Escucha explicaciones en video sin mirar la pantalla e imagina los pasos.",
         ("Matemática", "1-2 horas", "Leyendo u Observando"): "Mapas de fórmulas: Elabora esquemas con fórmulas y ejemplos prácticos.",
         ("Matemática", "1-2 horas", "Escribiendo o Hablando"): "Explicar por escrito: Redacta una explicación detallada de un problema matemático como si lo enseñaras.",
